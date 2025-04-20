@@ -1,4 +1,4 @@
-### NATIONAL UNIVERSITY OF SINGAPORE
+# NATIONAL UNIVERSITY OF SINGAPORE
 
 ### CS1231 - DISCRETE STRUCTURES
 
@@ -7,234 +7,202 @@
 ```
 Time Allowed: 2 Hours
 ```
-### INSTRUCTIONS TO CANDIDATES
+### <u>INSTRUCTIONS TO CANDIDATES</u>
 
-1. This assessment paper contains EIGHTEEN (18)questions inTWO (2) parts and
-    comprisesTHIRTEEN (13)printed pages, including this page.
-2. AnswerALLquestions.
-3. This is anOPEN BOOKassessment.
-4. You are allowed to useNUS APPROVED CALCULATORS.
-5. You are to submit two documents: TheOCR formand theAnswer Sheet. You may
+1. This assessment paper contains EIGHTEEN (18) questions in TWO (2) parts and
+    comprises THIRTEEN (13) printed pages, including this page.
+2. Answer ALL questions.
+3. This is an OPEN BOOK assessment.
+4. You are allowed to use NUS APPROVED CALCULATORS.
+5. You are to submit two documents: The OCR form and the Answer Sheet. You may
     keep this question paper.
-6. ShadeandwriteyourStudent Numbercompletely and accurately on the OCR form.
+6. Shade and write your Student Number completely and accurately on the OCR form.
 7. You must use 2B pencil for the OCR form.
-8. WriteyourStudent Numberon the Answer Sheet.Do not write your name.
+8. Write your Student Number on the Answer Sheet. Do not write your name.
 9. You may use pen or pencil to write your answers, but please erase cleanly, and write
     legibly. Marks may be deducted for illegible handwriting.
 
 
 ## Part A: (30 marks) MCQ. Answer on the OCR form.
 
-For each multiple choice question, choose the best answer andshadethe corresponding
-choice on the OCR form. Remember toshadeandwriteyourStudent Number(check that
+For each multiple choice question, choose the best answer and shade the corresponding
+choice on the OCR form. Remember to shade and write your Student Number (check that
 it is correct!) on the OCR form. Each multiple choice question is worth 2 marks. No mark is
 deducted for wrong answers. You should use a2B pencil.
 
-Q1. Given four words “eye”, “can”, “zoo” and “eat”, in how many ways can you arrange
-these words and the letters within each word?
-A. 4!× 32 × 62
-B. 4!× 64
-C. 4× 32 × 62
-D. 4!×3!
-E. 12!
+**Q1**. Given four words “eye”, “can”, “zoo” and “eat”, in how many ways can you arrange these words and the letters within each word?
 
-Q2. In how many ways can you pair up 8 boys and 8 girls?
-(A pair consists of a boy and a girl.)
-A. 8^2
-B. 8!
-C. 4! + 4!
-D. 8! + 8!
-E. 16!
+$\quad\quad$ A. $4! × 3^2 × 6^2$
 
-Q3. Given the predicates below:
+$\quad\quad$ B. $4! × 6^4$
 
-```
-M(x) = (xis a male student ).
-F(x) = (xis a female student ).
-CM(x,y) = (xandytake a common module ).
-```
-```
-Which of the following quantified statements means “Every female student takes some
-common module with every male student”? (The domain is the set of all students and is
-omitted in the quantified statements below.)
-(I). ∀x∀y(M(x) ∧ F(y) → CM(x,y) ).
-(II).∀x(F(x) → ∀y(M(y) ∧ CM(x,y) ) ).
-(III).∀x(F(x) → ∀y(M(y) → CM(x,y) ) ).
-(IV).∀x∀y(M(x) ∧ F(y) ∧ CM(x,y) ).
-```
-```
-A. (I) only.
-B. (IV) only.
-C. (I) and (III) only.
-D. (II) and (IV) only.
-E. None of A, B, C, or D.
-```
+$\quad\quad$ C. $4 × 3^2 × 6^2$
 
-Q4. Given the following three pairs of graphs:
+$\quad\quad$ D. $4! × 3!$
 
-```
-Figure 1A Figure 1B
-```
-```
-Figure 2A Figure 2B
-```
-```
-Figure 3A Figure 3B
-```
-```
-Which of the following statements are TRUE?
-(I). The graphs in Figures 1A and 1B are isomorphic.
-(II). The graphs in Figures 2A and 2B are isomorphic.
-(III). The graphs in Figures 3A and 3B are isomorphic.
-```
-```
-A. (I) only.
-B. (II) only.
-C. (I) and (II) only.
-D. (II) and (III) only.
-E. All of (I), (II) and (III).
-```
+$\quad\quad$ E. $12!$
 
-Q5. Which of the following statements are TRUE?
+**Q2**. In how many ways can you pair up 8 boys and 8 girls? (A pair consists of a boy and a girl.)
 
-```
-(I). The Tietze’s graph shown in Figure 1A in Q4 is an Eulerian graph.
-(II). The number of edges in a complete graphKnisn^2 /2.
-(III). If a simple connected graph onnvertices does not contain a cycle, then it must have
-exactlyn−1 edges.
-```
-```
-A. (I) only.
-B. (II) only.
-C. (III) only.
-D. All of (I), (II) and (III).
-E. None of (I), (II) and (III).
-```
-Q6. In a game of chance, you are required to draw one ball from a bag containing 4 red balls,
-7 green balls, and 9 blue balls. You win $20 if you draw a red ball, $15 if you draw a green
-ball, or nothing if you draw a blue ball. You pay $10 for each game. After each game, the
-ball drawn is returned to the bag.
-If Aiken plays this game 100 times, how much would you expect her to lose?
-A. $9.25.
-B. $75.
-C. $92.50.
-D. $100.
-E. None of the above.
+$\quad\quad$ A. $8^2$
 
-Q7. Figure 4 below shows a graph on three vertices. DefineW3(vi) to be the number of
-walks of length 3 from vertexvito itself.
+$\quad\quad$ B. $8!$
 
-### Figure 4
+$\quad\quad$ C. $4! + 4!$
 
-### v 1
+$\quad\quad$ D. $8! + 8!$
 
-### v 2 v^3
+$\quad\quad$ E. $16!$
 
-```
-Which of the following is TRUE?
-A.W3(v 1 ) = 2;W3(v 2 ) = 2;W3(v 3 ) = 2.
-B.W3(v 1 ) = 4;W3(v 2 ) = 6;W3(v 3 ) = 6.
-C.W3(v 1 ) = 4;W3(v 2 ) = 6;W3(v 3 ) = 8.
-D.W3(v 1 ) = 4;W3(v 2 ) = 8;W3(v 3 ) = 8.
-E. None of the above.
-```
+**Q3**. Given the predicates below:
 
-Q8. LetX,Y be two finite sets withmandnelements, respectively. Which of the following
-statements is FALSE?
-(I). Form=n, there aren! different bijective functions fromXtoY.
-(II). Form= 6,n= 3, there are 120 different one-to-one functions fromXtoY.
-(III). Form= 5,n= 2, there are 30 different surjective functions fromXtoY.
-(IV). Form= 4,n= 5, there are 120 different injective functions fromXtoY.
-A. (I) only.
-B. (II) only.
-C. (I) and (II) only.
-D. (II), (III) and (IV) only.
-E. All of (I), (II), (III) and (IV) are FALSE.
+$\quad\quad M(x) = (x$ is a male student $).$
 
-```
+$\quad\quad F(x) = (x$ is a female student $).$
+
+$\quad\quad CM(x, y) = (x$ and $y$ take a common module $).$
+
+Which of the following quantified statements means “Every female student takes some common module with every male student”? (The domain is the set of all students and is omitted in the quantified statements below.)
+
+$\quad\quad$ (I). $∀x∀y(M(x) ∧ F(y) → CM(x, y) ).$
+
+$\quad\quad$ (II). $∀x(F(x) → ∀y(M(y) ∧ CM(x, y) ) ).$
+
+$\quad\quad$ (III). $∀x(F(x) → ∀y(M(y) → CM(x, y) ) ).$
+
+$\quad\quad$ (IV). $∀x∀y(M(x) ∧ F(y) ∧ CM(x, y) ).$
+
+    A. (I) only.
+    B. (IV) only.
+    C. (I) and (III) only.
+    D. (II) and (IV) only.
+    E. None of A, B, C, or D.
+
+
+**Q4**. Given the following three pairs of graphs:
+
+Figure 1A
+
+Figure 1B
+
+Figure 2A
+
+Figure 2B
+
+Figure 3A
+
+Figure 3B
+
+Which of the following statements are **TRUE**?
+
+$\quad\quad$ (I). The graphs in Figures 1A and 1B are isomorphic.
+
+$\quad\quad$ (II). The graphs in Figures 2A and 2B are isomorphic.
+
+$\quad\quad$ (III). The graphs in Figures 3A and 3B are isomorphic.
+
+    A. (I) only.
+    B. (II) only.
+    C. (I) and (II) only.
+    D. (II) and (III) only.
+    E. All of (I), (II) and (III).
+
+**Q5**. Which of the following statements are TRUE?
+
+$\quad\quad$ (I). The Tietze’s graph shown in Figure 1A in Q4 is an Eulerian graph.
+
+$\quad\quad$ (II). The number of edges in a complete graph $K_n$ is $n^2 / 2$.
+
+$\quad\quad$ (III). If a simple connected graph onnvertices does not contain a cycle, then it must have exactly $n − 1$ edges.
+
+    A. (I) only.
+    B. (II) only.
+    C. (III) only.
+    D. All of (I), (II) and (III).
+    E. None of (I), (II) and (III).
+
+**Q6**. In a game of chance, you are required to draw one ball from a bag containing 4 red balls, 7 green balls, and 9 blue balls. You win $20 if you draw a red ball, $15 if you draw a green ball, or nothing if you draw a blue ball. You pay $10 for each game. After each game, the ball drawn is returned to the bag. If Aiken plays this game 100 times, how much would you expect her to lose?
+
+    A. $9.25.
+    B. $75.
+    C. $92.50.
+    D. $100.
+    E. None of the above.
+
+**Q7**. Figure 4 below shows a graph on three vertices. Define $W3(v_i)$ to be the number of walks of length 3 from vertex $v_i$ to itself.
+
+Figure 4
+
+Which of the following is **TRUE**?
+
+$\quad\quad$ A. $W3(v_1 ) = 2; \quad W3(v_2 ) = 2; \quad W3(v_3 ) = 2.$
+
+$\quad\quad$ B. $W3(v_1 ) = 4; \quad W3(v_2 ) = 6; \quad W3(v_3 ) = 6.$
+
+$\quad\quad$ C. $W3(v_1 ) = 4; \quad W3(v_2 ) = 6; \quad W3(v_3 ) = 8.$
+
+$\quad\quad$ D. $W3(v_1 ) = 4; \quad W3(v_2 ) = 8; \quad W3(v_3 ) = 8.$
+
+$\quad\quad$ E. None of the above.
+
+**Q8**. Let $X, Y$ be two finite sets with $m$ and $n$ elements, respectively. Which of the following statements is FALSE?
+
+$\quad\quad$ (I). For $m = n$, there are $n!$ different bijective functions from $X$ to $Y$.
+
+$\quad\quad$ (II). For $m = 6, \quad n = 3$, there are 120 different one-to-one functions from $X$ to $Y$.
+
+$\quad\quad$ (III). For $m = 5, \quad n = 2$, there are 30 different surjective functions from $X$ to $Y$.
+
+$\quad\quad$ (IV). For $m = 4, \quad n = 5$, there are 120 different injective functions from $X$ to $Y$.
+
+    A. (I) only.
+    B. (II) only.
+    C. (I) and (II) only.
+    D. (II), (III) and (IV) only.
+    E. All of (I), (II), (III) and (IV) are FALSE.
+
 The next 7 questions (Q9 to Q15) refer to the following definitions.
-```
-```
-Definition 1. AGroup, denoted(G,∗), is a setGalong with a binary operator∗
-that satisfies these four axioms:
-```
-```
-(A1) Closure: ∀a,b∈G, a∗b∈G.
-(A2) Associativity: ∀a,b,c∈G,(a∗b)∗c=a∗(b∗c).
-(A3) Identity: ∃e∈Gsuch that∀a∈G, a∗e=e∗a=a.
-(A4) Inverse: ∀a∈G,∃b∈G(called theinverseofa) such
-thata∗b=b∗a=e.
-Remarks:
-```
-1. It is usual to writeabto meana∗b.
-2. Because of Associativity, there is no ambiguity in writingabc, since the result is the
-    same whichever way it is evaluated.
-3. The elemente∈Gis called theidentity element, or simplyidentity.
-4. The inverse ofais usually denoteda−^1.
 
-```
-Definition 2.IfGis finite withm∈Z+elements, then thegroup orderofGis
-said to bem. For smallm, it is often helpful to see the group as aCayley table. Let
-a 1 ,a 2 ,...,ambe the elements ofG, then each entry,cijin them×mCayley table is
-defined ascij=aiaj, fori,j= 1, 2 ,...,m(see Table 1(a) on page 6.)
-```
-```
-An example of a group is ({true,false},⊕). Its Cayley table is shown in Table 1(b). As
-you may recall, ⊕ is the logicalexclusive-OR binary operator, which evaluates totrue
-when both its inputs are different, andfalseotherwise.
-```
-```
-To check whether this is a group, let’s see if it satisfies the four axioms. Closure is obvious
-from the table, and Associativity is guaranteed by the⊕operator. From the table, the
-identity is false, because true ⊕ false=true , and false ⊕ false=false, thus
-satisfying Axiom (A3). The last equality also means thatfalseis its own inverse; while
-true ⊕ true=falsemeans thattrueis its own inverse too. Thus, ({true,false},⊕) is
-a group since it satisfies all 4 axioms.
-```
+---
+**Definition 1**. A Group, denoted $(G,∗)$, is a set G along with a binary operator ∗ that satisfies these four axioms:
 
-```
-∗ a 1 ... aj ... am
-a 1
-..
-.
-```
-#### ..
+$\quad\quad$ (A1) **<u>Closure</u>**: $∀a,b∈G,a∗b∈G.$
 
-#### .
+$\quad\quad$ (A2) **<u>Associativity</u>**: $∀a,b,c∈G,(a∗b)∗c=a∗(b∗c).$
 
-```
-ai ... cij ...
-..
-.
-```
-#### ..
+$\quad\quad$ (A3) **<u>Identity</u>**: $∃e∈G$ such that $∀a∈G,a∗e=e∗a=a.$
 
-#### .
+$\quad\quad$ (A4) **<u>Inverse</u>**: $∀a∈G,∃b∈G$ (called the inverse of $a$) such that $a∗b=b∗a=e.$
 
-```
-am
-```
-```
-⊕ true false
-true false true
-false true false
-```
-```
-(a) General Cayley table (b) Cayley table for ({true,false},⊕)
-```
-```
+**<u>Remarks</u>**:
+1. It is usual to writeabto mean $a∗b$.
+
+2. Because of Associativity, there is no ambiguity in writing abc, since the result is the same whichever way it is evaluated.
+
+3. The element $e∈G$ is called the identity element, or simply identity.
+
+4. The inverse of $a$ is usually denoted $a^{-1}$.
+
+---
+
+**Definition 2**. If G is finite with $m∈Z^+$ elements, then the group order of G is said to be $m$. For small $m$, it is often helpful to see the group as a Cayley table. Let $a_1,a_2,...,a_m$ be the elements of G, then each entry, $c_{ij}$ in the $m×m$ Cayley table is defined as $c_{ij}=a_ia_j$, for $i,j= 1,2,...,m$ (see Table 1(a) on page 6.)
+
+---
+
+An example of a group is $(\{true,false\},⊕)$. Its Cayley table is shown in Table 1(b). As you may recall, $⊕$ is the logical exclusive-OR binary operator, which evaluates to true when both its inputs are different, and false otherwise.
+
+To check whether this is a group, let’s see if it satisfies the four axioms. Closure is obvious from the table, and Associativity is guaranteed by the ⊕ operator. From the table, the identity is false, because $true ⊕ false=true$, and $false ⊕ false=false$, thus satisfying Axiom (A3). The last equality also means that false is its own inverse; while $true ⊕ true=false$ means that true is its own inverse too. Thus, $(\{true,false\},⊕)$ is a group since it satisfies all 4 axioms.
+
+(a) General Cayley table
+
+(b) Cayley table for $(\{true,false\},⊕)$
+
 Table 1: Cayley tables.
-```
-```
-Another example of a group is the familiar (Z,+), that is, the set of integers with the
-usual addition operator. Closure and Associativity are true for integers under addition,
-and thus axioms (A1) and (A2) are satisfied. Theidentityis 0, sincea+ 0 = 0 +a=afor
-alla∈Z. Finally, for eacha∈Z, its inverse is−a, sincea+ (−a) = (−a) +a= 0. Thus,
-(Z,+) is a group. But sinceZis infinite, it is not possible to draw its Cayley table.
-```
-Q9. Which of the following is a group?
 
-```
+Another example of a group is the familiar $(ℤ,+)$, that is, the set of integers with the usual addition operator. Closure and Associativity are true for integers under addition, and thus axioms (A1) and (A2) are satisfied. The identity is 0, since $a+0=0+a=a$ for all $a∈ℤ$. Finally, for each $a∈ℤ$, its inverse is $−a$, since $a+(−a)=(−a)+a=0$. Thus, $(ℤ,+)$ is a group. But since $ℤ$ is infinite, it is not possible to draw its Cayley table.
+
+**Q9**. Which of the following is a group?
+
 A. (R,◦), where R={R 120 ,R 240 ,R 360 }, and Rθ means “rotate an equilateral
 triangle^1 θdegrees clockwise around its centerO” (see Figure 5), and◦means
 function composition, ie.Rθ 2 ◦Rθ 1 means “rotate clockwise by θ 1 , followed by
@@ -284,7 +252,7 @@ E. None of the above.
 (^1) An equilateral triangle is a triangle in which all 3 sides have equal length, and all 3 angles are 60◦.
 
 
-Q10. Define three functions as follows:
+### Q10. Define three functions as follows:
 
 ```
 f:R−→R, ∀x∈R, f(x) =x+ 1.
@@ -309,7 +277,7 @@ C. (I) and (IV) only.
 D. (II), (III) and (IV) only.
 E. None of A, B, C or D.
 ```
-Q11. Given a group (G,∗), and from the 4 group axioms (A1) to (A4) alone, it is possible to
+### Q11. Given a group (G,∗), and from the 4 group axioms (A1) to (A4) alone, it is possible to
 deduce that all the following statements are true, EXCEPT:
 A. (Left cancellation law:)∀a,b,c∈G,(ab=ac)→(b=c).
 B. (Uniqueness of inverse:) ∀a,b,b′∈G, ((ab=ba=e)∧(ab′=b′a=e))→(b=
@@ -365,7 +333,7 @@ It is easy to verify that (G 1 ,∗) is indeed a group. Note that 4^3 = 4∗ 4 �
 Note also that the element order of 2 is 4, since 2^4 = 2∗ 2 ∗ 2 ∗2 = 4∗4 = 1, and 4 is the
 smallest positive integer such that 2^4 = 1.
 ```
-Q12. Using the Cayley table for (G 1 ,∗), what is 2−^1?
+### Q12. Using the Cayley table for (G 1 ,∗), what is 2−^1?
 
 ```
 A.^12
@@ -374,7 +342,7 @@ C. 2
 D. 3
 E. 4
 ```
-Q13. Using the Cayley table for (G 1 ,∗), what is the element order of 4?
+### Q13. Using the Cayley table for (G 1 ,∗), what is the element order of 4?
 
 ```
 A. 1
@@ -383,7 +351,7 @@ C. 3
 D. 4
 E. None of the above.
 ```
-Q14. Using the Cayley table for (G 1 ,∗), solve 3x^2 = 1.
+### Q14. Using the Cayley table for (G 1 ,∗), solve 3x^2 = 1.
 
 ```
 A. 1/
@@ -405,7 +373,7 @@ A. 1/
 ```
 E. There is no solution.
 ```
-# Q15. Using the Cayley table for (G 1 ,∗), determine 3
+### Q15. Using the Cayley table for (G 1 ,∗), determine 3
 
 ### 45
 
@@ -436,7 +404,7 @@ E. There is no solution.
 
 ## writing and unnecessary statements in proofs.
 
-Q16. (14 marks)Counting and Probability.
+### Q16. (14 marks)Counting and Probability.
 
 ```
 (a) (7 marks) Answer the following parts. Working is not required.
@@ -462,7 +430,7 @@ that if we taken+ 1 numbers from the set{ 1 , 2 , 3 ,..., 2 n}, then some pair o
 will be co-prime.
 ```
 
-Q17. (14 marks)Trees and Graphs.
+### Q17. (14 marks)Trees and Graphs.
 
 ```
 (a) (3 marks) Based on the postorder traversal and inorder traversal of a binary tree
@@ -564,7 +532,7 @@ What is the maximum amount of money you can earn starting with a pile of n
 stones? Explain your answer.
 ```
 
-Q18. (12 marks)Group Theory. (Please refer to the Group Definitions 1 to 4 given on
+### Q18. (12 marks)Group Theory. (Please refer to the Group Definitions 1 to 4 given on
 pages 5 and 7.) We make one more definition.
 
 ```
@@ -687,7 +655,3 @@ Proof (Symmetry).
 ∀x∈G,∃n∈Z+ such thatxn=e.
 
 #### END OF PAPER
-
-![E=mc^2](https://render.githubusercontent.com/render/math?math=E%3Dmc%5E2)
-
-Einstein's equation: `E = mc^2`
